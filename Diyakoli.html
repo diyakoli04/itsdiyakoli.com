@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diya Koli | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      background: #f4f6f8;
+      color: #333;
+      animation: fadeIn 1.2s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    header {
+      background: linear-gradient(135deg, #4f46e5, #6366f1);
+      color: #fff;
+      padding: 3rem 1rem;
+      text-align: center;
+      animation: slideDown 1s ease-out;
+    }
+    @keyframes slideDown {
+      from { transform: translateY(-40px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    header h1 { font-size: 2.5rem; }
+    header p { margin-top: 0.5rem; font-size: 1.1rem; }
+    header a {
+      color: #ffeb3b;
+      text-decoration: none;
+      margin: 0 0.5rem;
+      font-weight: 500;
+      transition: transform 0.3s, color 0.3s;
+    }
+    header a:hover {
+      transform: scale(1.1);
+      color: #ffffff;
+    }
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      animation: riseUp 0.9s ease-in-out;
+    }
+    @keyframes riseUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    h2 {
+      margin-bottom: 1rem;
+      color: #4f46e5;
+      border-left: 5px solid #4f46e5;
+      padding-left: 10px;
+    }
+    .skills span {
+      display: inline-block;
+      background: #e0e7ff;
+      color: #1e3a8a;
+      padding: 0.4rem 0.8rem;
+      margin: 0.3rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      transition: transform 0.3s, background 0.3s;
+    }
+    .skills span:hover {
+      transform: translateY(-5px);
+      background: #c7d2fe;
+    }
+    .project {
+      margin-bottom: 1.5rem;
+      padding: 1rem;
+      border-radius: 8px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .project:hover {
+      transform: scale(1.02);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    }
+    .project h3 { color: #111827; }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #1f2933;
+      color: #fff;
+      margin-top: 2rem;
+      animation: fadeIn 1.5s ease-in;
+    }
+    footer a { color: #60a5fa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Diya Koli</h1>
+  <p>B.Tech IT Student | Fresher</p>
+  <p>
+    <a href="mailto:diya44505@gmail.com">Email</a> |
+    <a href="https://www.linkedin.com/in/diya-koli2004/">LinkedIn</a> |
+    <a href="https://github.com/diyakoli04">GitHub</a>
+  </p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>
+    I am a motivated Information Technology student with hands-on experience in web development, programming, and project-based learning. I enjoy building real-world applications and continuously improving my technical skills in software development, data analytics, and emerging technologies.
+  </p>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <p><strong>B.Tech in Information Technology (2023–2026)</strong><br>
+  Usha Mittal Institute of Technology, Mumbai<br>
+  CGPA: 8.04</p><br>
+
+  <p><strong>Diploma in Engineering (2020–2023)</strong><br>
+  Government Polytechnic, Mumbai<br>
+  Percentage: 82.67%</p><br>
+
+  <p><strong>SSC (10th Grade)</strong><br>
+  Percentage: 88.40%</p>
+</section>
+
+<section>
+  <h2>Technical Skills</h2>
+  <div class="skills">
+    <span>C++</span><span>Python</span><span>Java</span><span>HTML</span><span>CSS</span>
+    <span>Oracle</span><span>phpMyAdmin</span><span>GitHub</span><span>XAMPP</span>
+    <span>VS Code</span><span>Android Studio</span><span>DBMS</span><span>OOP</span>
+  </div>
+</section>
+
+<section>
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>CampusBuzz (Ongoing)</h3>
+    <p>A centralized college event management portal with Admin, Organizer, and Student dashboards.</p>
+    <p><strong>Tech:</strong> HTML, CSS, JavaScript, PHP, XAMPP</p>
+  </div>
+
+  <div class="project">
+    <h3>Car Parking System</h3>
+    <p>IoT-based hardware project showing parking slot availability at entry and exit gates.</p>
+  </div>
+
+  <div class="project">
+    <h3>Book Buzz</h3>
+    <p>Online book review platform allowing users to submit and view reviews.</p>
+    <p><strong>Tech:</strong> HTML, CSS, Google Forms, GitHub</p>
+  </div>
+
+  <div class="project">
+    <h3>Snake & Ladder Game</h3>
+    <p>Two-player Python-based game with turn-based logic and winner display.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Certifications</h2>
+  <ul>
+    <li>AI for Beginners – HP Life</li>
+    <li>Introduction to Cybersecurity – HP Life</li>
+    <li>LaTeX – Spoken Tutorial</li>
+    <li>Network Fundamentals – Infosys</li>
+    <li>Data Analytics Job Simulation – Deloitte</li>
+    <li>Cybersecurity Analyst Job Simulation – Forage</li>
+  </ul>
+</section>
+
+<footer>
+  <p>©  Diya Koli | Mumbai  </p>
+</footer>
+
+</body>
+</html>
